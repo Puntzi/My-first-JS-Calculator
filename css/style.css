@@ -1,0 +1,72 @@
+@font-face { 
+    font-family: MyriadPro; 
+    src: url('../fonts/MyriadPro-Regular.otf'); 
+} 
+
+body {
+    background: linear-gradient(to right, #78ffd6, #007991);
+}
+
+.buttonsCalculator {
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 5px;
+    padding: 10px;
+    
+}
+
+.calculator {
+    max-width:290px;
+    background: black;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+.button {
+    font-family: MyriadPro;
+    font-size: 2em;
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #303130;
+    color: white;
+}
+
+.button:hover {
+    color: black;
+    background-color: white;
+}
+
+
+.result {
+    font-family: MyriadPro;
+    background: black;
+    color: white;
+    font-size: 5em;
+    border:0;
+    padding: 5%;
+    text-align: right;
+    width: 250px;
+}
+
+.operator {
+    color: white;
+    background: #f69a06;
+}
+
+.upperButton {
+    color: black;
+    background-color: #9f9f9f;
+}
+
+.larger {
+    grid-column: span 2;
+    border-radius: 30px;
+}
+
+input {
+    font-family: MyriadPro;
+    font-size: 1em;
+    padding: 10px;
+    border-radius: 20px;
+}
